@@ -14,7 +14,10 @@
     </header>
     
     <main class="content">
-        <section id="cart">
+        <section id="cart"
+        onmouseover="this.style.opacity=0.7"
+        onmouseout="this.style.opacity=1"
+        >
             <h4>Tu pedido</h4>
             <button id="btnCancelar">Cancelar</button>
             <ul></ul>
@@ -24,7 +27,7 @@
             <h3>Categoria 1</h3>
             <ul>
                 <li>
-                    <article class="product">
+                    <article class="product" data-producto="Remera">
                         <h4>Producto 1</h4>
                         <section>
                             <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
@@ -33,7 +36,7 @@
                     </article>
                 </li>
                 <li>
-                    <article class="product">
+                    <article class="product" data-producto="Remera">
                         <h4>Producto 1</h4>
                         <section>
                             <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
@@ -42,7 +45,7 @@
                     </article>
                 </li>
                 <li>
-                    <article class="product">
+                    <article class="product" data-producto="zapatos">
                         <h4>Producto 1</h4>
                         <section>
                             <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
@@ -51,7 +54,7 @@
                     </article>
                 </li>
                 <li>
-                    <article class="product">
+                    <article class="product" data-producto="Buzzo">
                         <h4>Producto 1</h4>
                         <section>
                             <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
@@ -63,7 +66,7 @@
             <h3>Categoria 2</h3>
             <ul>
                 <li>
-                    <article class="product">
+                    <article class="product" data-producto="Campera">
                         <h4>Producto 1</h4>
                         <section>
                             <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
