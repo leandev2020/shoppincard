@@ -1,0 +1,124 @@
+html {
+     font-size: 62.5%  /* 16px * 62.5 = 10px => 1rem   */
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f4c75;
+}
+
+
+body>header{
+    background-color: #0f4c75;  
+    color: #fff;
+    padding: 2rem;
+    width: 100%;
+    position: fixed;
+    top:0 
+}
+
+header img{
+    float: right;
+    margin-right: 3rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: whitesmoke;
+}
+
+main {
+    background-color: #00b7c2;
+    padding: 1.5rem;
+    padding-top: 12rem;
+}
+
+h3 {
+    margin-top: 0;
+    background-color: #fff;
+    padding: 5px;
+    border-bottom: 2px dashed #1b262c;
+    position: sticky;
+    top: 14rem
+}
+
+#cart {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    left:20%;
+    right: 20%;
+    background-color: #666;
+    color: #EEE;
+    padding: 1rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 1000;
+
+}
+
+#cart li {
+    margin: 5px 10px;
+}
+
+#cart button {
+    color: orange;
+}
+
+
+#cart h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    color: whitesmoke; 
+}
+
+.product {
+    margin-top: 1.5rem;
+}
+
+.product h4 {
+    color:#0f4c75;
+    font-size: 2rem;
+    margin: 5px 0;
+}
+
+.product section {
+    display: flex;
+}
+
+.product .description {
+    flex-grow: 1;
+    color: #444;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.product .precio {
+    width: 100px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: right;
+    margin: 0;
+    vertical-align: middle;
+
+}
+
+
+footer {
+    padding: 0 1.5rem;
+    text-align: center;
+    font-size: smaller;
+}
+
+footer a {
+    padding: 1.5rem;
+}

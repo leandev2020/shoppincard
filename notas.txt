@@ -1,0 +1,62 @@
+Crear un stio web
+
+Estructura de carpetas
+css
+js
+index.html
+assets/
+    images
+    videos
+
+---------------------------------
+
+src
+    index.html 
+    style.css
+    main.js
+
+----------------------------------
+
+front
+    src
+        index.js
+    public
+    package.json
+backend
+    package.json
+    src
+        index.js
+-------------------------------------
+
+
+Vamos a crear un sitio sencillo tipo tienda virtual 
+-----------------------------------------------------
+
+1. Encabezado que tenga 
+    titulo 
+    subtitulo 
+    imagen
+
+2. contenido principal
+
+3. Pie de pagina 
+    Direccion 
+    horario de atencion
+    enlace telefonico
+
+------------------------------------------------------
+
+main quiero dividirlo en dos partes
+    1 carrito 
+        tu pedido 
+        cancelar
+        lista de que se va comprando
+    2 contenido
+        Por categorias de producto
+            cada uno de los productos
+
+------------------------------------------------------
+Categoria 1
+    Producto 1
+        description
+        precio
