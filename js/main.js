@@ -12,6 +12,14 @@ window.addEventListener('DOMContentLoaded', ()=>{
         }
     })
 
+    window.btnBorrarItem.addEventListener('click', ()=>{
+        let seguroBorrarItem = confirm("Estas seguro que queres borrar el ultimo item?")
+        if(seguroBorrarItem) {
+            pedido.pop()
+            actualizarCarrito()
+        }
+    })
+
     let productos = document.querySelectorAll('.product')
     //console.log(productor)
     for(let producto of productos){
